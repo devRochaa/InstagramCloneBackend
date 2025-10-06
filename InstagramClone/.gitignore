@@ -1,0 +1,161 @@
+## Visual Studio / .NET / Clean Architecture
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio auto-generated folders
+.vs/
+.vscode/
+
+# Backup & cache files
+*_i.c
+*_p.c
+*_h.h
+*.dbmdl
+*.bak
+*.backup
+*.tmp
+*.temp
+*.log
+*.vspscc
+*.vssscc
+
+# NuGet
+*.nupkg
+# NuGet restore results
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+.nuget/
+*.snupkg
+
+# Microsoft Azure build output
+csx/
+*.build.csdef
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# AutoMapper debug files
+AutoMapperProfiles.log
+
+# Entity Framework migrations backup
+MigrationsBackup/
+migrations_backup/
+EFCoreMigrationsHistory/
+
+# Dotnet artifacts
+*.dll
+*.exe
+*.pdf
+*.docx
+*.pdb
+*.cache
+*.xml
+*.json.user
+*.db
+*.mdf
+*.ldf
+
+# Publish folder
+publish/
+out/
+dist/
+
+# Coverage / analysis
+coverage/
+coverage*.json
+*.coverage
+*.coveragexml
+*.opencover.xml
+
+# Test results
+TestResults/
+*.trx
+*.VisualState.xml
+*.coverage
+*.nunit.xml
+
+# Resharper / Rider / analyzers
+_ReSharper*/
+*.DotSettings.user
+*.DotSettings
+
+# Local environment secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.secrets.json
+secrets.json
+*.env
+
+# Docker
+docker-compose.override.yml
+.docker/
+docker-compose*.yaml
+docker-compose*.yml
+Dockerfile.*
+
+# Node / Frontend (caso tenha SPA no futuro)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Miscellaneous
+*.swp
+*.bak
+*.orig
+*.rej
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.db-journal
+
+# OS-generated
+.DS_Store
+ehthumbs.db
+Icon?
+desktop.ini
+
+# JetBrains & VS Code config
+.idea/
+.vscode/
+*.code-workspace
+
+# Clean Architecture layers
+ESports.Domain/bin/
+ESports.Domain/obj/
+ESports.Application.Abstractions/bin/
+ESports.Application.Abstractions/obj/
+ESports.Application.Core/bin/
+ESports.Application.Core/obj/
+ESports.Application.IoC/bin/
+ESports.Application.IoC/obj/
+ESports.Infrastructure/bin/
+ESports.Infrastructure/obj/
+ESports.Persistence/bin/
+ESports.Persistence/obj/
+ESports.BackOffice.API/bin/
+ESports.BackOffice.API/obj/
+ESports.Portal.API/bin/
+ESports.Portal.API/obj/
+
+# Optional: ignore generated migrations (if you prefer to create them fresh)
+# ESports.Persistence/Migrations/

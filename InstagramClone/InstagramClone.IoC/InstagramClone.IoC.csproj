@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InstagramClone.Application.Abstractions\InstagramClone.Application.Abstractions.csproj" />
+    <ProjectReference Include="..\InstagramClone.Application.Core\InstagramClone.Application.Core.csproj" />
+    <ProjectReference Include="..\InstagramClone.Application.IoC\InstagramClone.Application.IoC.csproj" />
+    <ProjectReference Include="..\InstagramClone.Domain\InstagramClone.Domain.csproj" />
+    <ProjectReference Include="..\InstagramClone.Infrasctructure\InstagramClone.Infrasctructure.csproj" />
+    <ProjectReference Include="..\InstagramClone.Persistence\InstagramClone.Persistence.csproj" />
+    <ProjectReference Include="..\InstagramClone.Portal.API\InstagramClone.Portal.API.csproj" />
+    <ProjectReference Include="..\InstagramClone.Shared\InstagramClone.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

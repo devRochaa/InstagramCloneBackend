@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/1 - Core/" />
+  <Folder Name="/1 - Core/1.1 - Domain/">
+    <Project Path="src/InstagramClone.Domain/InstagramClone.Domain.csproj" />
+  </Folder>
+  <Folder Name="/1 - Core/1.2 - Application/">
+    <Project Path="src/InstagramClone.Application.Abstractions/InstagramClone.Application.Abstractions.csproj" />
+    <Project Path="src/InstagramClone.Application.Core/InstagramClone.Application.Core.csproj" />
+    <Project Path="src/InstagramClone.Application.IoC/InstagramClone.Application.IoC.csproj" />
+  </Folder>
+  <Folder Name="/2 - Infrastructure/">
+    <Project Path="src/InstagramClone.Infrasctructure/InstagramClone.Infrasctructure.csproj" />
+    <Project Path="src/InstagramClone.Persistence/InstagramClone.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/3 - IoC/">
+    <Project Path="src/InstagramClone.IoC/InstagramClone.IoC.csproj" />
+  </Folder>
+  <Folder Name="/4 - Presentation/">
+    <Project Path="src/InstagramClone.Portal.API/InstagramClone.Portal.API.csproj" />
+  </Folder>
+  <Folder Name="/5 - Shared/">
+    <Project Path="src/InstagramClone.Shared/InstagramClone.Shared.csproj" />
+  </Folder>
+</Solution>

@@ -7,14 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Context\" />
-    <Folder Include="Config\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Migrations\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\InstagramClone.Application.Abstractions\InstagramClone.Application.Abstractions.csproj" />
     <ProjectReference Include="..\InstagramClone.Domain\InstagramClone.Domain.csproj" />
   </ItemGroup>

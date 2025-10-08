@@ -1,12 +1,17 @@
 ﻿using InstagramClone.Domain.Entities;
+using System.Linq.Expressions;
+using System.Runtime.CompilerServices;
 
 namespace InstagramClone.Domain.Repositories;
 
-public interface IRepository<TKey, TEntity>
-    where TKey : struct, IEquatable<TKey>
-    where TEntity : class, IEntity<TKey> {
+public interface IRepository<TEntity>
+    where TEntity : class {
 
-    //Task<TEntity?> FirstOrDefaultAsync(
-    //    )
+    Task<TEntity?> FirstOrDefaultAsync(
+    Expression<Func<TEntity, bool>> where,
+    bool tracking = true,
+    CancellationToken cancellationToken = default);
+
+    //Task<IReadLeadTEntity> ToListAsync()
 
 }

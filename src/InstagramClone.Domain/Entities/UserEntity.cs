@@ -1,7 +1,8 @@
 ﻿namespace InstagramClone.Domain.Entities;
 
-internal class UserEntity : Entity<Guid>, IDateTracked, ISoftDelete
+internal class UserEntity : IEntity, IDateTracked, ISoftDelete
 {
+    public Guid Id { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
     public bool IsDeleted { get; set; }
